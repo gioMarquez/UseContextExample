@@ -1,0 +1,8 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.btn-login{
+  @apply bg-gradient-to-br from-red-500  to-blue-500 rounded-3xl font-medium  m-2 w-[250px] h-[40px]
+}
